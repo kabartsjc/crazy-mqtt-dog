@@ -1,0 +1,1 @@
+Folder where the log data from Mosquitto is saved!

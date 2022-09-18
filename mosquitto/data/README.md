@@ -1,0 +1,1 @@
+Folder where the application data from Mosquitto is saved!
