@@ -29,4 +29,19 @@ sudo apt-get install -y mosquitto
 sudo apt-get install -y mosquitto-clients
 sudo apt-get install -y vim
 
+
+echo "Install Anaconda  ...."
+sudo apt-get install curl
+cd /tmp
+curl –O https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
+bash Anaconda3-2020.02-Linux-x86_64.sh
+
+conda update conda
+conda update anaconda
+
+
+
+
+
+sudo pip3 install paho-mqtt
 sudo systemctl disable mosquitto
